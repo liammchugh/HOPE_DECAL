@@ -322,15 +322,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "d1855ae5-bac9-4f6d-b11e-fad99d05f143",
-      ""
-    ],
-    [
-      "7ce05cb6-02e1-48ad-b56e-c5b3db231811",
-      "ESP32-S3-WROOM-1-Breakout"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
