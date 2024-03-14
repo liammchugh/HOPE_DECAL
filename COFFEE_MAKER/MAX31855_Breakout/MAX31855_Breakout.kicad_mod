@@ -1,0 +1,42 @@
+(footprint "MAX31855_Breakout" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 63489EAE)
+  (attr through_hole)
+  (fp_text reference "REF**" (at -7.62 17.78 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 468769b2-fe92-4c52-a9ea-09b1b3773014)
+  )
+  (fp_text value "MAX31865_Breakout" (at 0 15.24 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6968fda1-7524-4107-b743-dde5e59219b6)
+  )
+  (fp_text user "${REFERENCE}" (at -2.54 17.78 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1a69dea4-c18e-4196-a53a-f901a1d18551)
+  )
+  (fp_rect (start -10.16 11.43) (end 10.16 -11.43) (layer "F.SilkS") (width 0.12) (fill none) (tstamp e91d4ef4-4dcb-4a12-98ea-d56fba43b459))
+  (pad "1" thru_hole circle (at -1.27 9.399 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp d7e57b54-008a-4dea-8ba6-c6225fb968c6))
+  (pad "2" thru_hole rect (at -1.77854 -7.62126 90) (size 1.778 1.778) (drill 0.762) (layers *.Cu *.Mask) (tstamp d07887d2-0220-41f4-a2e4-cf86b7293846))
+  (pad "3" thru_hole circle (at 1.77746 -7.62126 90) (size 1.778 1.778) (drill 0.762) (layers *.Cu *.Mask) (tstamp 51488249-0ab1-49af-80d0-f096d79420f0))
+  (pad "4" thru_hole circle (at -6.35 9.399 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 2467f8f5-07b7-41b3-89f4-6b13a0f0f0d3))
+  (pad "5" thru_hole circle (at 6.35 9.399 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 34ddb753-e57c-4ca8-a67b-d7cdf62cae93))
+  (pad "6" thru_hole circle (at 3.81 9.399 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 11c7c8d4-4c4b-4330-bb59-1eec2e98b255))
+  (pad "7" thru_hole circle (at 1.27 9.399 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 8caafb03-7a29-475e-8d0d-01f4f970870f))
+  (pad "8" thru_hole circle (at -3.81 9.399 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 23af03ff-0e7d-4217-84a1-267683cd2f20))
+  (group "" (id 0a548d8f-4d84-4ded-b777-2f084f1c59b2)
+    (members
+      51488249-0ab1-49af-80d0-f096d79420f0
+      d07887d2-0220-41f4-a2e4-cf86b7293846
+    )
+  )
+  (group "" (id f299d44d-07a6-4927-b4ab-dd79db9e1cc5)
+    (members
+      11c7c8d4-4c4b-4330-bb59-1eec2e98b255
+      23af03ff-0e7d-4217-84a1-267683cd2f20
+      2467f8f5-07b7-41b3-89f4-6b13a0f0f0d3
+      34ddb753-e57c-4ca8-a67b-d7cdf62cae93
+      8caafb03-7a29-475e-8d0d-01f4f970870f
+      d7e57b54-008a-4dea-8ba6-c6225fb968c6
+    )
+  )
+)
