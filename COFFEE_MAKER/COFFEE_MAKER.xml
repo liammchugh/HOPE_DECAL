@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Andrew\Documents\GitHub\HOPE_DECAL\COFFEE_MAKER\COFFEE_MAKER.kicad_sch</source>
-    <date>4/9/2024 2:23:08 PM</date>
+    <date>4/10/2024 1:55:33 AM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -163,8 +163,9 @@
       <tstamps>86d41945-919a-46e4-bc36-3150e37584f4</tstamps>
     </comp>
     <comp ref="C18">
-      <value>.1uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/893/CL21B104KCFNNNE_Spec.pdf</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
@@ -176,6 +177,7 @@
     <comp ref="C19">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
@@ -185,8 +187,9 @@
       <tstamps>39666277-1071-4a04-b848-7d8ee87c2c61</tstamps>
     </comp>
     <comp ref="C20">
-      <value>.1uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/893/CL21B104KCFNNNE_Spec.pdf</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
@@ -196,8 +199,9 @@
       <tstamps>8f797dc1-ed27-4aec-986a-f87931c9632f</tstamps>
     </comp>
     <comp ref="C21">
-      <value>.1uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/893/CL21B104KCFNNNE_Spec.pdf</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
@@ -209,6 +213,7 @@
     <comp ref="D1">
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150080RS75000.pdf</datasheet>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
@@ -268,6 +273,7 @@
     <comp ref="F1">
       <value>500mA Fuse</value>
       <footprint>Fuse:Fuse_0603_1608Metric</footprint>
+      <datasheet>https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2q-series.pdf</datasheet>
       <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
@@ -279,6 +285,7 @@
     <comp ref="F2">
       <value>500mA Fuse</value>
       <footprint>Fuse:Fuse_0603_1608Metric</footprint>
+      <datasheet>https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2q-series.pdf</datasheet>
       <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
@@ -324,7 +331,7 @@
     </comp>
     <comp ref="J2">
       <value>Conn_01x06</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
@@ -554,7 +561,7 @@
       <tstamps>a2931230-d79b-4c97-94d5-67cd77d3987f</tstamps>
     </comp>
     <comp ref="R11">
-      <value>5.1 k</value>
+      <value>5.1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -566,8 +573,9 @@
       <tstamps>2e62641e-036e-46a1-a6a1-aaa745e218fa</tstamps>
     </comp>
     <comp ref="R12">
-      <value>5.1 k</value>
+      <value>5.1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="COFFEE_MAKER.kicad_sch"/>
